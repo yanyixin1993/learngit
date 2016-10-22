@@ -13,6 +13,7 @@ public class role {
 		this.wp=wp;
 	}
 	public void action(role role){
+		System.out.print("¡¾"+this.name+"¡¿");
 		wp.action(role);
 	}
 }
