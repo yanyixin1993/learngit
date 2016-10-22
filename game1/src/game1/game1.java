@@ -10,8 +10,9 @@ public class game1 {
 		// TODO Auto-generated method stub
 		King Arthur =new King("亚瑟");
 		weapon x=new Axe();
-		x.action(Arthur);
-		
+		Arthur.addweapon(x);
+		King Alex=new King("亚历山大");
+		Arthur.action(Alex);
 	}
 
 }
